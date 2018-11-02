@@ -1,0 +1,19 @@
+{
+  "presets": [
+      "react-app"
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "constants": "./src/constants",
+        "components": "./src/components/",
+        "containers": "./src/containers/",
+        "posts": "./src/state/ducks/posts/",
+        "comments": "./src/state/ducks/comments",
+        "utils": "./src/state/ducks/utils",
+        "logo": "./src/images/logo.svg"
+      }
+    }]
+  ]
+}

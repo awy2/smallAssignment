@@ -1,0 +1,9 @@
+.UserPost{
+  text-align: left;
+  border: solid;
+  cursor: pointer;
+}
+
+.UserPost.alt{
+  background-color: Gainsboro ;
+}

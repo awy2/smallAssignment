@@ -1,0 +1,18 @@
+.Header a{
+  padding: 1% 5%;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.Header a:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  color:white;
+  background:#53a7ea;
+}
+
+#pdftron-logo{
+  height: 1rem;
+}
