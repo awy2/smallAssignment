@@ -55,9 +55,10 @@ class PostDisplay extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    return {
-        posts: postSelectors.getPosts(state),
-    };
+  return { //  playing around with selectors
+      // posts: postSelectors.getPosts(state),
+      posts: postSelectors.getPostsR(state),
+  }
 };
 
 export default connect(mapStateToProps)(PostDisplay);
